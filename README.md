@@ -27,3 +27,9 @@ This project demonstrates how to create a **Managed Availability Set** and deplo
 ### 2️⃣ Open Cloud Shell and Generate SSH Keys
 ```bash
 ssh-keygen -t rsa -b 4096 -q
+
+---
+
+### 3️⃣ Display Public Key
+```bash
+cat ~/.ssh/id_rsa.pub
